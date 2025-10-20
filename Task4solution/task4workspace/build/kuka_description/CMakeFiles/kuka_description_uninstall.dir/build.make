@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eniola/Task4solution/task4workspace/kuka_description
+CMAKE_SOURCE_DIR = /home/eniola/Eniola_Task_4/Task4solution/task4workspace/src/kuka_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eniola/Task4solution/task4workspace/build/kuka_description
+CMAKE_BINARY_DIR = /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description
 
 # Utility rule file for kuka_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/kuka_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/kuka_description_uninstall.dir/progress.make
 
 CMakeFiles/kuka_description_uninstall:
-	/usr/bin/cmake -P /home/eniola/Task4solution/task4workspace/build/kuka_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 kuka_description_uninstall: CMakeFiles/kuka_description_uninstall
 kuka_description_uninstall: CMakeFiles/kuka_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/kuka_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/kuka_description_uninstall.dir/clean
 
 CMakeFiles/kuka_description_uninstall.dir/depend:
-	cd /home/eniola/Task4solution/task4workspace/build/kuka_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eniola/Task4solution/task4workspace/kuka_description /home/eniola/Task4solution/task4workspace/kuka_description /home/eniola/Task4solution/task4workspace/build/kuka_description /home/eniola/Task4solution/task4workspace/build/kuka_description /home/eniola/Task4solution/task4workspace/build/kuka_description/CMakeFiles/kuka_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eniola/Eniola_Task_4/Task4solution/task4workspace/src/kuka_description /home/eniola/Eniola_Task_4/Task4solution/task4workspace/src/kuka_description /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description/CMakeFiles/kuka_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kuka_description_uninstall.dir/depend
 

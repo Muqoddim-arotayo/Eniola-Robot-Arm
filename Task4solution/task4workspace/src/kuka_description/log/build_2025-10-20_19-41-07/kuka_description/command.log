@@ -1,0 +1,2 @@
+Invoking command in '/home/eniola/Eniola_Task_4/Task4solution/task4workspace/kuka_description/build/kuka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eniola/Eniola_Task_4/Task4solution/task4workspace/kuka_description/build/kuka_description -- -j12 -l12
+Invoked command in '/home/eniola/Eniola_Task_4/Task4solution/task4workspace/kuka_description/build/kuka_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eniola/Eniola_Task_4/Task4solution/task4workspace/kuka_description/build/kuka_description -- -j12 -l12

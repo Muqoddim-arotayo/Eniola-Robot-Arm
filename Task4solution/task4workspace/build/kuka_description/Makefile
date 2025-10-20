@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eniola/Task4solution/task4workspace/kuka_description
+CMAKE_SOURCE_DIR = /home/eniola/Eniola_Task_4/Task4solution/task4workspace/src/kuka_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eniola/Task4solution/task4workspace/build/kuka_description
+CMAKE_BINARY_DIR = /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eniola/Task4solution/task4workspace/build/kuka_description/CMakeFiles /home/eniola/Task4solution/task4workspace/build/kuka_description//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description/CMakeFiles /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eniola/Task4solution/task4workspace/build/kuka_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eniola/Eniola_Task_4/Task4solution/task4workspace/build/kuka_description/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

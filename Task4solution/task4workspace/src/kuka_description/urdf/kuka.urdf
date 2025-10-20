@@ -1,0 +1,116 @@
+<robot name = "kuka">
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_0.dae" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="second_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_1.dae" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="third_link">
+        <visual>
+            <origin xyz="0 0 -0.36" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_2.dae" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link>
+    <link name = "forth_link">
+        <visual>
+            <origin xyz="0 0 -0.58" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_3.dae" scale="1.0 1.0 1.0" />
+            </geometry>
+        </visual>
+    </link>
+    <link name = "fifth_link">
+        <visual>
+            <origin xyz="0 0 -0.79" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_4.dae" scale="1.0 1.0 1.0" />
+            </geometry>
+        </visual>
+    </link>
+    <link name = "sixth_link">
+        <visual>
+            <origin xyz="0 0 -0.99" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_5.dae" scale="1.0 1.0 1.0" />
+            </geometry>
+        </visual>
+    </link>
+    <link name = "seventh_link">
+        <visual>
+            <origin xyz="0 0 -1.19" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_6.dae" scale="1.0 1.0 1.0" />
+            </geometry>
+        </visual>
+    </link>
+    <link name = "eighth_link">
+        <visual>
+            <origin xyz="0 0 -1.31" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://kuka_description/meshes/link_7.dae" scale="1.0 1.0 1.0" />
+            </geometry>
+        </visual>
+    </link>
+    <joint name="base_to_second" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="second_link"/>
+    </joint>
+
+    <joint name="second_to_third" type="revolute">
+        <origin xyz="0 0 0.36" rpy="0 0 0"/>
+        <parent link="second_link"/>
+        <child link="third_link"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+    <joint name="third_to_forth" type="revolute">
+        <origin xyz="0 0 0.22" rpy="0 0 0"/>
+        <parent link="third_link"/>
+        <child link="forth_link"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+    <joint name="forth_to_fifth" type="revolute">
+        <origin xyz="0 0 0.21" rpy="0 0 0"/>
+        <parent link="forth_link"/>
+        <child link="fifth_link"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+    <joint name="fifth_to_sixth" type="revolute">
+        <origin xyz="0 0 0.19" rpy="0 0 0"/>
+        <parent link="fifth_link"/>
+        <child link="sixth_link"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+    <joint name="sixth_to_seventh" type="revolute">
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
+        <parent link="sixth_link"/>
+        <child link="seventh_link"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+    <joint name="seventh_to_eighth" type="revolute">
+        <origin xyz="0 0 0.11" rpy="0 0 0"/>
+        <parent link="seventh_link"/>
+        <child link="eighth_link"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+</robot>    

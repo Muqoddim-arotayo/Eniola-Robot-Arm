@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/eniola/Task4solution/task4workspace/install/kuka_description"}
+: ${AMENT_CURRENT_PREFIX:="/home/eniola/Eniola_Task_4/Task4solution/task4workspace/install/kuka_description"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

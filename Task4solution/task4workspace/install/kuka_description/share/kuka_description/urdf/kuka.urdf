@@ -2,7 +2,7 @@
     <link name = "base_link">
         <visual>
             <geometry>
-                <mesh filename="package://Task4solution/task4workspace/kuka_description/meshes/link_0.dae" scale="1.0 1.0 1.0" />
+                <mesh filename="package://kuka_description/meshes/link_0.dae" scale="1.0 1.0 1.0" />
             </geometry>
         </visual>
     </link>
